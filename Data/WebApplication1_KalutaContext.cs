@@ -14,6 +14,7 @@ namespace WebApplication1_Kaluta.Data
         {
             Database.EnsureCreated();
         }
+        //ghghghghghgh
 
        public DbSet<subjects> Subjects { get; set; }
         public DbSet<teachers> Teachers { get; set; }
